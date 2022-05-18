@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: ado-azure-agents-small 
+  name: cgi-ado-agents-small 
 
 variables:
   buildConfiguration: 'Release'
