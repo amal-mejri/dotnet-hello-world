@@ -52,8 +52,6 @@ stages:
         imageName: '$(ImageName)'
       condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
 
-steps:
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+
 
 
